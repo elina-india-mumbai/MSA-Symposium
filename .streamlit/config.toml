@@ -1,0 +1,17 @@
+# Streamlit configuration
+# Theme uses an MSU-maroon accent for sliders, toggles, and links.
+
+[theme]
+primaryColor = "#5D1725"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F2F2"
+textColor = "#1A1A1A"
+font = "sans serif"
+
+[server]
+headless = true
+# USAspending responses can be large; keep upload limit modest.
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
